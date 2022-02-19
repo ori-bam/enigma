@@ -260,17 +260,17 @@ if __name__ == '__main__':
                 match y:
                     case 1:
                         handle_toFileEncryption(
-                            file_name, "transmissions/transmissions1.txt",mode)
+                            file_name, "transmissions1.txt",mode)
                         show_Menu()
                         work(validate(1, 3),mode)
                     case 2:
                         handle_toFileEncryption(
-                            file_name, "transmissions/transmissions2.txt",mode)
+                            file_name, "transmissions2.txt",mode)
                         show_Menu()
                         work(validate(1, 3),mode)
                     case 3:
                         handle_toFileEncryption(
-                            file_name, "transmissions/transmissions3.txt",mode)
+                            file_name, "transmissions3.txt",mode)
                         show_Menu()
                         work(validate(1, 3),mode)
             case 3:
